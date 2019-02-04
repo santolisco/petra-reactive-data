@@ -1,15 +1,14 @@
 package com.bat.petra.data.worker;
 
+import com.bat.petra.data.worker.service.WorkerService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication(scanBasePackages = "com.bat.petra.data")
-@EnableScheduling
 public class WorkerApplication {
 
 	public static void main(String[] args) {
 
-		SpringApplication.run(WorkerApplication.class, args);
+		SpringApplication.run(WorkerService.class, args);
 	}
 }
