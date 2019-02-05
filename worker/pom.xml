@@ -111,7 +111,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>om.bat.petra.data.worker.WorkerApplication</mainClass>
+                    <mainClass>com.bat.petra.data.worker.WorkerApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
