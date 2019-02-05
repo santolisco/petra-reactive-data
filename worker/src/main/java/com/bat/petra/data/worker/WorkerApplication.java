@@ -7,8 +7,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication(scanBasePackages = "com.bat.petra.data")
 public class WorkerApplication {
 
+
+
 	public static void main(String[] args) {
 
-		SpringApplication.run(WorkerService.class, args);
+		SpringApplication.run(WorkerApplication.class, args);
+
+		WorkerService myservice = new WorkerService();
+		myservice.worker();
 	}
 }
