@@ -8,6 +8,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 import com.bat.petra.data.common.model.Exception;
 
@@ -17,7 +18,7 @@ import java.util.List;
 import java.util.Map;
 
 
-
+@Configuration
 @Component
 public class ReceiveMsgComponent {
 
