@@ -8,15 +8,15 @@ import java.io.Serializable;
 
 
 @Entity
-@Table(name = "product2", schema = "salesforce")
+@Table(name = "Product2", schema = "salesforce")
 public class Product implements Serializable {
 
 
 
-    @Column(name = "id")
+    @Column(name = "Id")
     private String id;
 
-    @Column(name= "productcode")
+    @Column(name= "ProductCode")
     private String productId;
 
     public String getId() {

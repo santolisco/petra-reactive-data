@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d06c577e-ebfa-4381-a32e-2047cf4902ff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/Account.java" afterPath="$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/Account.java" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/Product.java" afterPath="$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/Product.java" />
     </list>
     <ignored path="$PROJECT_DIR$/worker/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,16 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/worker/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -130,12 +120,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Account.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Account.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/Account.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
               <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Product.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/Product.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#479#480#0" expanded="true" />
+                <element signature="e#507#508#0" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#625#626#0" expanded="true" />
+                <element signature="e#667#668#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -210,7 +220,6 @@
         <option value="$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/repository/validation/ProductValidator.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/configuration/ApplicationProperty.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/exception/IRProcessResultCodes.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/Product.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/repository/ProductRepository.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/repository/ProductService.java" />
         <option value="$PROJECT_DIR$/Procfile" />
@@ -227,6 +236,7 @@
         <option value="$PROJECT_DIR$/worker/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/MappingRules.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/Account.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/Product.java" />
       </list>
     </option>
   </component>
@@ -455,12 +465,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548625454363</updated>
       <workItem from="1548625455759" duration="54676000" />
-      <workItem from="1549455189284" duration="2676000" />
+      <workItem from="1549455189284" duration="2846000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11114000" />
+    <option name="totallyTimeSpent" value="11284000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -636,6 +646,7 @@
             <element signature="e#443#444#0" expanded="true" />
             <element signature="e#479#480#0" expanded="true" />
             <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
             <element signature="e#575#576#0" expanded="true" />
             <element signature="e#625#626#0" expanded="true" />
             <element signature="e#667#668#0" expanded="true" />
@@ -654,6 +665,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -661,6 +673,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="56" lean-forward="false" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -818,13 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -938,6 +946,24 @@
         <state relative-caret-position="288">
           <caret line="19" column="45" lean-forward="false" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
