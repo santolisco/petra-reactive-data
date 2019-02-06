@@ -1,5 +1,7 @@
 package com.bat.petra.data.common.model;
 
+import org.hibernate.annotations.NaturalId;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
@@ -10,14 +12,14 @@ import java.io.Serializable;
 @Table(name = "Account", schema = "salesforce")
 public class Account implements Serializable {
 
-
+    @NaturalId
     @Column(name = "id")
     private String id;
 
     @Column(name = "name")
     private String name;
 
-    @Column(name = "ivybat__SAP_CustomerId__c")
+    @Column(name = "ivybat__sap_customerid__c")
     private String SAPNumber;
 
 
