@@ -8,9 +8,8 @@ import javax.persistence.Table;
 import java.io.Serializable;
 
 @Entity
-@Table(name = "External_Mapping_Rule__c", schema = "salesforce")
+@Table(name = "external_mapping_rule__c", schema = "salesforcedev04")
 public class MappingRules implements Serializable {
-
 
 
     @NaturalId

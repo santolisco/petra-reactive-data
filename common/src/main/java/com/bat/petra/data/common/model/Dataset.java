@@ -6,7 +6,7 @@ import javax.persistence.*;
 import java.io.Serializable;
 
 @Entity
-@Table(name = "dataset__c", schema = "salesforce")
+@Table(name = "dataset__c", schema = "salesforcedev04")
 public class Dataset implements Serializable {
 
 

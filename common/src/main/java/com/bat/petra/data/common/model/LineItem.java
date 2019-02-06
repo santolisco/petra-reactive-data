@@ -8,7 +8,7 @@ import java.util.UUID;
 
 
 @Entity
-@Table(name = "Petra_Order_Line_Item__c", schema = "salesforce")
+@Table(name = "Petra_Order_Line_Item__c", schema = "salesforcedev04")
 public class LineItem implements Serializable {
 
 

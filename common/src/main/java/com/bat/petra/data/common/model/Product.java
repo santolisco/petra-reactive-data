@@ -8,7 +8,7 @@ import java.io.Serializable;
 
 
 @Entity
-@Table(name = "Product2", schema = "salesforce")
+@Table(name = "Product2", schema = "salesforcedev04")
 public class Product implements Serializable {
 
 

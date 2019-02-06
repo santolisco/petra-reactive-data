@@ -9,7 +9,7 @@ import java.io.Serializable;
 
 
 @Entity
-@Table(name = "Account", schema = "salesforce")
+@Table(name = "Account", schema = "salesforcedev04")
 public class Account implements Serializable {
 
     @NaturalId

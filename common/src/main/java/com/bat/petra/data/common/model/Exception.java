@@ -9,7 +9,7 @@ import java.util.UUID;
 
 
 @Entity
-@Table(name = "exception__c", schema = "salesforce")
+@Table(name = "exception__c", schema = "salesforcedev04")
 public class Exception implements Serializable {
 
 
