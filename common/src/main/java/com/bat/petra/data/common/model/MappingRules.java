@@ -36,4 +36,71 @@ public class MappingRules implements Serializable {
     @Column(name = "sourceValue")
     private String sourceValue;
 
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getTargetEntity() {
+        return targetEntity;
+    }
+
+    public void setTargetEntity(String targetEntity) {
+        this.targetEntity = targetEntity;
+    }
+
+    public String getTargetField() {
+        return targetField;
+    }
+
+    public void setTargetField(String targetField) {
+        this.targetField = targetField;
+    }
+
+    public String getTargetValue() {
+        return targetValue;
+    }
+
+    public void setTargetValue(String targetValue) {
+        this.targetValue = targetValue;
+    }
+
+    public String getSourceEntity() {
+        return sourceEntity;
+    }
+
+    public void setSourceEntity(String sourceEntity) {
+        this.sourceEntity = sourceEntity;
+    }
+
+    public String getSourceField() {
+        return sourceField;
+    }
+
+    public void setSourceField(String sourceField) {
+        this.sourceField = sourceField;
+    }
+
+    public String getSourceValue() {
+        return sourceValue;
+    }
+
+    public void setSourceValue(String sourceValue) {
+        this.sourceValue = sourceValue;
+    }
+
+
+
 }
