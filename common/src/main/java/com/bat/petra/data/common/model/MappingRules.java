@@ -8,8 +8,9 @@ import javax.persistence.Table;
 import java.io.Serializable;
 
 @Entity
-@Table(name = "mappingrules__c", schema = "salesforce")
+@Table(name = "External_Mapping_Rule__c", schema = "salesforce")
 public class MappingRules implements Serializable {
+
 
     @NaturalId
     @Column(name = "id",  updatable=false, insertable=false)
@@ -18,22 +19,22 @@ public class MappingRules implements Serializable {
     @Column(name = "name")
     private String name;
 
-    @Column(name = "TargetEntity")
+    @Column(name = "Target_Object__c")
     private String targetEntity;
 
-    @Column(name = "TargetField")
+    @Column(name = "Target_Field__c")
     private String targetField;
 
-    @Column(name = "TargetValue")
+    @Column(name = "Target_Value__c")
     private String targetValue;
 
-    @Column(name = "SourceEntity")
+    @Column(name = "Source_Object__c")
     private String sourceEntity;
 
-    @Column(name = "sourceField")
+    @Column(name = "Source_Field__c")
     private String sourceField;
 
-    @Column(name = "sourceValue")
+    @Column(name = "Source_Value__c")
     private String sourceValue;
 
 
