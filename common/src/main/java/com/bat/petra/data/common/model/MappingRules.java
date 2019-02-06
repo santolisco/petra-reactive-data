@@ -12,6 +12,7 @@ import java.io.Serializable;
 public class MappingRules implements Serializable {
 
 
+
     @NaturalId
     @Column(name = "id",  updatable=false, insertable=false)
     private String id;
@@ -19,22 +20,22 @@ public class MappingRules implements Serializable {
     @Column(name = "name")
     private String name;
 
-    @Column(name = "Target_Object__c")
+    @Column(name = "target_object__c")
     private String targetEntity;
 
-    @Column(name = "Target_Field__c")
+    @Column(name = "target_field__c")
     private String targetField;
 
-    @Column(name = "Target_Value__c")
+    @Column(name = "target_value__c")
     private String targetValue;
 
-    @Column(name = "Source_Object__c")
+    @Column(name = "source_object__c")
     private String sourceEntity;
 
-    @Column(name = "Source_Field__c")
+    @Column(name = "source_field__c")
     private String sourceField;
 
-    @Column(name = "Source_Value__c")
+    @Column(name = "source_value__c")
     private String sourceValue;
 
 
