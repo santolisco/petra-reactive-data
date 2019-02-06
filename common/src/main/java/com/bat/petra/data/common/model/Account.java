@@ -7,7 +7,7 @@ import java.io.Serializable;
 
 
 @Entity
-@Table(name = "account", schema = "salesforce")
+@Table(name = "Account", schema = "salesforce")
 public class Account implements Serializable {
 
 

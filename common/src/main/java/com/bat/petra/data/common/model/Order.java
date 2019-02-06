@@ -9,7 +9,7 @@ import java.util.UUID;
 
 
 @Entity
-@Table(name = "petra_order__C", schema = "salesforce")
+@Table(name = "Petra_order__C", schema = "salesforce")
 public class Order implements Serializable {
 
 
