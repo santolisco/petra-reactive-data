@@ -1,5 +1,7 @@
 package com.bat.petra.data.common.model;
 
+import org.hibernate.annotations.NaturalId;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
@@ -8,15 +10,15 @@ import java.io.Serializable;
 
 
 @Entity
-@Table(name = "Product2", schema = "salesforcedev04")
+@Table(name = "product2", schema = "salesforcedev04")
 public class Product implements Serializable {
 
 
-
-    @Column(name = "Id")
+    @NaturalId
+    @Column(name = "id")
     private String id;
 
-    @Column(name= "ProductCode")
+    @Column(name= "productcode")
     private String productId;
 
     public String getId() {

@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d06c577e-ebfa-4381-a32e-2047cf4902ff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/Dataset.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/Dataset.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/Exception.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/Exception.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/LineItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/LineItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/MappingRules.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/MappingRules.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/Product.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/worker/target/" />
@@ -127,8 +120,8 @@
       <file leaf-file-name="Product.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+            <state relative-caret-position="225">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#418#419#0" expanded="true" />
@@ -432,12 +425,12 @@
       <updated>1548625454363</updated>
       <workItem from="1548625455759" duration="54676000" />
       <workItem from="1549455189284" duration="4074000" />
-      <workItem from="1549492673701" duration="186000" />
+      <workItem from="1549492673701" duration="607000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12698000" />
+    <option name="totallyTimeSpent" value="13119000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -792,37 +785,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/Account.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/ProcessStatus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/Dataset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/Exception.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/LineItem.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/Order.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="10" column="67" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
+          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -868,24 +841,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/Order.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/LineItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+          <caret line="10" column="67" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/ProcessStatus.java">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        <state relative-caret-position="165">
+          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/Dataset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/Exception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/bat/petra/data/common/model/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+        <state relative-caret-position="225">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#418#419#0" expanded="true" />
