@@ -11,7 +11,7 @@
         </Console>
     </Appenders>
     <Loggers>
-        <Logger name="bat.einstein" level="debug" additivity="false">
+        <Logger name="bat.petra.data" level="debug" additivity="false">
             <AppenderRef ref="HerokuLogger" />
         </Logger>
 

@@ -6,6 +6,6 @@ import org.springframework.data.jpa.repository.Query;
 
 public interface MappingRulesRepository extends JpaRepository<MappingRules, Long> {
 
-    @Query("SELECT c.value FROM MappingRules c WHERE c.key = ?1")
+    @Query("SELECT c.targetValue FROM MappingRules c WHERE c.sourceValue = ?1")
     String getTargetValue(String targetentity, String targetfield, String type);
 }
