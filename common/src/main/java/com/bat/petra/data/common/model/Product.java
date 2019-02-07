@@ -18,7 +18,7 @@ public class Product implements Serializable {
     @Column(name = "id")
     private String id;
 
-    @Column(name= "productcode")
+    @Column(name = "productcode")
     private String productId;
 
     public String getId() {
