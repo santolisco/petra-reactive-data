@@ -4,6 +4,7 @@ import org.hibernate.annotations.NaturalId;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.Table;
 import java.io.Serializable;
 
@@ -14,7 +15,7 @@ import java.io.Serializable;
 public class Product implements Serializable {
 
 
-    @NaturalId
+    @Id
     @Column(name = "id")
     private String id;
 

@@ -10,7 +10,7 @@ import java.io.Serializable;
 public class Dataset implements Serializable {
 
 
-        @NaturalId
+        @Id
         @Column(name = "id")
         private String id;
 
