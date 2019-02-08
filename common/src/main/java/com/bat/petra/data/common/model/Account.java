@@ -19,7 +19,7 @@ public class Account implements Serializable {
     @Column(name = "name")
     private String name;
 
-    @Column(name = "ivybat__sap_customerid__c")
+    @Column(name = "ivybat__SAP_CustomerId__c")
     private String SAPNumber;
 
 

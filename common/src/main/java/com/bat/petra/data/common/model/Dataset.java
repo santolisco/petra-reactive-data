@@ -11,7 +11,7 @@ public class Dataset implements Serializable {
 
 
         @NaturalId
-        @Column(name = "id",  updatable=false, insertable=false)
+        @Column(name = "id")
         private String id;
 
         @Column(name = "name")
@@ -23,7 +23,6 @@ public class Dataset implements Serializable {
         @Column(name = "patch__c")
         private String path;
 
-        @Enumerated(EnumType.STRING)
         @Column(name = "status__c")
         private String status;
 
