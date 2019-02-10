@@ -1,6 +1,8 @@
 package com.bat.petra.data.common.model;
 
-import org.hibernate.annotations.NaturalId;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -12,6 +14,9 @@ import java.io.Serializable;
 @Entity
 @Table(name = "Account", schema = "salesforcedev04")
 public class Account implements Serializable {
+
+
+    private static final Logger LOGGER = LoggerFactory.getLogger(Account.class);
 
     @Id
     @Column(name = "id")
@@ -25,6 +30,8 @@ public class Account implements Serializable {
 
 
     public String getId() {
+
+        LOGGER.info(id);
         return id;
     }
 
