@@ -11,9 +11,10 @@ public class WorkerApplication {
 
 	public static void main(String[] args) {
 
+		System.out.println("Hola Carola");
+
 		SpringApplication.run(WorkerApplication.class, args);
 
-		WorkerService myservice = new WorkerService();
-		myservice.worker();
+
 	}
 }
