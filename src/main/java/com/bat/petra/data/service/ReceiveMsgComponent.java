@@ -7,6 +7,8 @@ import com.bat.petra.data.repository.validation.*;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.amqp.rabbit.annotation.RabbitHandler;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.context.annotation.Configuration;
@@ -22,6 +24,7 @@ import java.util.Map;
 @Component
 @RabbitListener(queues = {"ordertocheckmq"})
 public class ReceiveMsgComponent {
+
 
         @RabbitHandler
         public void receiveMessage(String message){
