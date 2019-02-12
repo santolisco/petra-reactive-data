@@ -10,11 +10,11 @@ import org.springframework.stereotype.Component;
 
 
 @Component
-@RabbitListener(queues = {"ordertocheckmq"})
+
 public class ReceiveMsgComponent {
 
 
-        @RabbitHandler
+        @RabbitListener(queues = "ordertocheckmq")
         public void receiveMessage(PetraMessage message){
             try {
                  System.out.print(" receive message [" + message.toString() + "] ");
