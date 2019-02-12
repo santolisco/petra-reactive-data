@@ -19,7 +19,6 @@ import java.util.List;
 import java.util.Map;
 
 
-@Configuration
 @Component
 @RabbitListener(queues = {"ordertocheckmq"})
 public class ReceiveMsgComponent {
