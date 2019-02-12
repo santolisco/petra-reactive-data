@@ -15,7 +15,17 @@ import java.util.Map;
 
 
 @Configuration
+@EnableRabbit
 public class RabbitMqConfig {
+    
+    @Bean
+     public SimpleRabbitListenerContainerFactory myRabbitListenerContainerFactory() {
+       SimpleRabbitListenerContainerFactory factory = new SimpleRabbitListenerContainerFactory();
+       factory.setConnectionFactory(connectionFactory());
+       factory.setMaxConcurrentConsumers(5);
+       return factory;
+     }
+    
 
     @Bean
     public MessageConverter messageConverter()
