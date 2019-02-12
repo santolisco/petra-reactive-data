@@ -20,8 +20,7 @@ public class WorkerApplication  {
 
         System.out.println("Hola Carola - 1");
         SpringApplication.run(ReceiveMsgComponent.class, args);
-        ReceiveMsgComponent mycomp = new ReceiveMsgComponent();
-        mycomp.receiveMessage("Hola");
+
         System.out.println("Hola Carola - 1 .1");
     }
 
