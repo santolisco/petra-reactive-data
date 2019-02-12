@@ -3,6 +3,7 @@ com\bat\petra\data\repository\validation\AccountValidator.class
 com\bat\petra\data\repository\ExceptionRepository.class
 com\bat\petra\data\repository\AccountService.class
 com\bat\petra\data\repository\validation\ProductValidator.class
+com\bat\petra\data\service\ReceiveMsgComponentOld.class
 com\bat\petra\data\repository\validation\ValidatorDefinition.class
 com\bat\petra\data\model\Exception.class
 com\bat\petra\data\repository\validation\RulesEntities.class
@@ -11,8 +12,10 @@ com\bat\petra\data\repository\LineItemService.class
 com\bat\petra\data\repository\ProductService.class
 com\bat\petra\data\WorkerApplication.class
 com\bat\petra\data\repository\LineItemRepository.class
+com\bat\petra\data\model\PetraItemMessage.class
 com\bat\petra\data\repository\AccountRepository.class
 com\bat\petra\data\service\ReceiveMsgComponent.class
+com\bat\petra\data\model\PetraMessage.class
 com\bat\petra\data\repository\MappingRulesRepository.class
 com\bat\petra\data\model\Order.class
 com\bat\petra\data\repository\ExceptionRepositoryImpl.class
@@ -22,6 +25,7 @@ com\bat\petra\data\service\MappingRulesService.class
 com\bat\petra\data\repository\validation\Validator.class
 com\bat\petra\data\model\MappingRules.class
 com\bat\petra\data\repository\OrderRepository.class
+com\bat\petra\data\service\RabbitMqConfig.class
 com\bat\petra\data\repository\OrderService.class
 com\bat\petra\data\utils\FileUtils.class
 com\bat\petra\data\model\Account.class

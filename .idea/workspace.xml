@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d06c577e-ebfa-4381-a32e-2047cf4902ff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bat/petra/data/WorkerApplication.java" afterPath="$PROJECT_DIR$/src/main/java/com/bat/petra/data/WorkerApplication.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bat/petra/data/service/ReceiveMsgComponent.java" afterPath="$PROJECT_DIR$/src/main/java/com/bat/petra/data/service/ReceiveMsgComponent.java" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/worker/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WorkerApplication.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WorkerApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bat/petra/data/WorkerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="522">
@@ -69,6 +68,16 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="87" column="21" lean-forward="false" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -128,16 +137,6 @@
                 <element signature="e#377#378#0" expanded="true" />
                 <element signature="e#407#408#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bat/petra/data/repository/OrderService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -229,13 +228,13 @@
         <option value="$PROJECT_DIR$/worker/pom.xml" />
         <option value="$PROJECT_DIR$/worker/src/com/bat/petra/data/worker/WorkerApplication.java" />
         <option value="$PROJECT_DIR$/worker/src/main/java/com/bat/petra/data/worker/WorkerApplication.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/src/main/java/com/bat/petra/data/service/RabbitMqConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bat/petra/data/model/PetraItemMessage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bat/petra/data/model/PetraMessage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bat/petra/data/service/ReceiveMsgComponent.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bat/petra/data/WorkerApplication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -543,12 +542,12 @@
       <workItem from="1549492673701" duration="18750000" />
       <workItem from="1549892132288" duration="2118000" />
       <workItem from="1549926364497" duration="3289000" />
-      <workItem from="1549969766299" duration="11365000" />
+      <workItem from="1549969766299" duration="11945000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48034000" />
+    <option name="totallyTimeSpent" value="48614000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -861,14 +860,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="90" column="48" lean-forward="false" selection-start-line="90" selection-start-column="48" selection-end-line="90" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -1021,6 +1012,14 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="87" column="21" lean-forward="false" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
