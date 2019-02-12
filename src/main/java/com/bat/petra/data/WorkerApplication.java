@@ -19,7 +19,7 @@ public class WorkerApplication  {
     public static void main(String[] args) {
 
         System.out.println("Hola Carola - 1");
-        SpringApplication.run(ReceiveMsgComponent.class, args);
+        SpringApplication.run(WorkerApplication.class, args);
 
         System.out.println("Hola Carola - 1 .1");
     }
