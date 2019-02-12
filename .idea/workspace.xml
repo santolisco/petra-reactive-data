@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d06c577e-ebfa-4381-a32e-2047cf4902ff" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bat/petra/data/WorkerApplication.java" afterPath="$PROJECT_DIR$/src/main/java/com/bat/petra/data/WorkerApplication.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bat/petra/data/service/ReceiveMsgComponent.java" afterPath="$PROJECT_DIR$/src/main/java/com/bat/petra/data/service/ReceiveMsgComponent.java" />
     </list>
     <ignored path="$PROJECT_DIR$/worker/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,8 +29,8 @@
       <file leaf-file-name="WorkerApplication.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bat/petra/data/WorkerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="46" lean-forward="false" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+            <state relative-caret-position="540">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -495,12 +494,12 @@
       <workItem from="1549492673701" duration="18750000" />
       <workItem from="1549892132288" duration="2118000" />
       <workItem from="1549926364497" duration="3289000" />
-      <workItem from="1549969766299" duration="5733000" />
+      <workItem from="1549969766299" duration="6056000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42402000" />
+    <option name="totallyTimeSpent" value="42725000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -935,8 +934,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bat/petra/data/WorkerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="46" lean-forward="false" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+        <state relative-caret-position="540">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
